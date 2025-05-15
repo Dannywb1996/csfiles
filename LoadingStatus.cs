@@ -1,0 +1,19 @@
+public enum LoadingStatus
+{
+	Empty,
+	WaitingForService,
+	CheckingLobbyStatus,
+	CleaningUpPreviousLobby,
+	LeavingPreviousLobby,
+	CreatingLobby,
+	PreparingLobby,
+	PreparingLobbyClient,
+	WaitingForHostPlayer,
+	ConnectingToGame,
+	ConnectingToLobby,
+	CreatingGame,
+	GettingLobbyInformation,
+	WaitingForSteam,
+	WaitingForOtherPlayers,
+	RequestingItemFromServer
+}
