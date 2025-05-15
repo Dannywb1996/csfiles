@@ -1,0 +1,24 @@
+public enum DewExceptionType
+{
+	GameAlreadyStarted,
+	VersionMismatch,
+	LobbyTimeout,
+	UnknownLobby,
+	Disconnected,
+	LobbyNotFound,
+	TooManyRequests,
+	Timeout,
+	CannotResolveDestinationHost,
+	SaveLoadFailed_SaveCorrupt,
+	SaveLoadFailed_NewSaveFailed,
+	SteamAuthGetTicketFailed,
+	SteamAuthFailed,
+	UnknownItem,
+	InvalidResponseFromItemServer,
+	FailedToGetItemGeneric,
+	ItemNotEligible,
+	InvalidGiftCode,
+	UsedCode,
+	AlreadyHaveThisGift,
+	CorruptGameFiles
+}
